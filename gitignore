@@ -1,0 +1,23 @@
+# Audio — never commit. Licensing and size.
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.zip
+
+# Reference transcripts from third-party corpora
+*_reference.txt
+short_clips/
+
+# Model weights / caches
+*.nemo
+*.pt
+*.bin
+.cache/
+__pycache__/
+.ipynb_checkpoints/
+
+# Env
+.env
+venv/
+.DS_Store
